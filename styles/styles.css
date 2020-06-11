@@ -1,0 +1,29 @@
+/* 
+Button System 
+  - The product designer has delivered button designs in ButtonDesigns.png.
+  - You must bring the design to life and show a prototype of each button type.  
+
+Instructions:
+  - Using CSS, develop a button system to implement the designs.
+  - Apply your style types to the five buttons in index.html to demonstrate the various states of the buttons. Do not add additional buttons.
+
+Design Notes:
+  - The designer strongly dislikes adding colors outside of the color palette (READ: do not add additional colors), which consists of:
+    - #167C1E (a green)
+    - #DA0202 (a red)
+    - #A2A2A2 (a gray)
+    - #FFFFFF (white). 
+  - For Primary, Secondary, and Severe types: the active state color change is twice as much as the hover state color change.
+  - For Disabled: there is only one state: normal (i.e. no hover or active states)
+  - For Reverse: The hover state color change is the same amount change as the hover states for Primary, Secondary, and Severe. 
+  - Additional button specs:
+    - padding: padding: 6px 25px;
+    - font-weight: 600;
+    - font-size: 14px;
+    - line-height: 21px;
+*/
+div {
+  padding: 10px;
+}
+
+/* Your code... */
